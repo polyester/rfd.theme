@@ -1,0 +1,4 @@
+<layers>
+    <layer name="Roze Filmdagen Theme"
+           interface="rfd.theme.browser.interfaces.IThemeSpecific" />
+</layers>

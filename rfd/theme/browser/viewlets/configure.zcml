@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="rfd.theme">
+
+    <include package="Products.CMFCore" file="permissions.zcml"/>
+
+    <browser:viewlet
+        name="rfd.theme.documentactions"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class=".content.DocumentActionsViewlet"
+        permission="zope2.View"
+        />
+
+  <browser:viewlet
+      for="*"
+      name="rfd.theme.searchbox"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class="plone.app.layout.viewlets.common.SearchBoxViewlet"
+      template="rfd_searchbox.pt"
+      permission="zope2.View"
+      />
+
+</configure>
