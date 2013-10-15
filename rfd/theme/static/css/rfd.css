@@ -112,8 +112,9 @@ div#portal-searchbox
 
 #portal-searchbox #searchGadget
 {
-    padding: 4px;
-    margin: 7px;
+    padding: 0px;
+    margin: 0px;
+    width: 93%;
 }
 
 .LSBox {
@@ -137,7 +138,7 @@ dl.portlet dt
 {
     border-bottom: none;
     color: black;
-    background-color: white;
+    background-color: #FF87C3;
     font-size: 130%;
     padding: 0em 0.42em;
 }
@@ -147,7 +148,7 @@ dl.portlet dt a:hover,
 dl.portlet dt a:link
 {
     color: black;
-    background-color: white;
+    background-color: #FF87C3;
 }
 
 .portlet dd
@@ -162,7 +163,7 @@ dl.portlet {
 
 dl.portlet dd.portletFooter
 {
-    background-color: white;
+    background-color: #FF87C3;
     color: black;
 }
 
@@ -322,7 +323,6 @@ dl.portlet li:last-child
     margin-bottom: 30px;
     padding-right: 5px;
     padding-left: 0px;
-    background-color: #fff;
 }
 
 #content .tile img

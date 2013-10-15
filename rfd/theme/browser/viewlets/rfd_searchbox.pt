@@ -31,7 +31,7 @@
         <input class="searchButton icon-search icon-2x"
                type="submit"
                value="&#xf002;"
-               i18n:attributes="value label_search;" />
+               />
 
         <div class="LSResult" id="LSResult"><div class="LSShadow" id="LSShadow"></div></div>
         </div>
