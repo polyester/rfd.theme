@@ -3,6 +3,10 @@ body
     line-height: 180%;
 }
 
+img, img.image-left, img.image-right, .captioned img {
+    border: 0px;
+}
+
 #payoff
 {
     float: right;
